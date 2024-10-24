@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Місце" />
+        <EditText
+            android:id="@+id/title_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Місто та країна через кому"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата" />
+        <EditText
+            android:id="@+id/date_travel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Формат: 2024-01-29"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цікаві місця" />
+        <EditText
+            android:id="@+id/interesting_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть відвідані місця через кому"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Досвід" />
+        <EditText
+            android:id="@+id/expirience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть отриманий досвід через крапку"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/add_recipe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Додати" />
+
+    </LinearLayout>
+</ScrollView>
